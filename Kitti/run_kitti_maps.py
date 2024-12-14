@@ -16,8 +16,8 @@ import time
 
 
 # Define directories
-oxts_dir = '/home/bharath/Documents/Projects/KITTI/raw data/2011_09_26_drive_0084_sync/2011_09_26/2011_09_26_drive_0084_sync/oxts/data/'
-image_dir = '/home/bharath/Documents/Projects/KITTI/raw data/2011_09_26_drive_0084_sync/2011_09_26/2011_09_26_drive_0084_sync/image_02/data'
+oxts_dir = 'KITTI/raw data/2011_09_26_drive_0084_sync/2011_09_26/2011_09_26_drive_0084_sync/oxts/data/'
+image_dir = 'KITTI/raw data/2011_09_26_drive_0084_sync/2011_09_26/2011_09_26_drive_0084_sync/image_02/data'
 
 # Get all images and IMU files, then sort them
 image_files = sorted(glob.glob(os.path.join(image_dir, '*.png')))
