@@ -15,8 +15,8 @@ nuscenes_data_path = 'mini/v1.0-mini/'
 ver = 'v1.0-mini'
 
 
-# imgs_path = r"C:/Users/shara/OneDrive/Desktop/Projects/NUSCENES/v1.0-trainval_meta"
-# nuscenes_data_path = r"C:/Users/shara/OneDrive/Desktop/Projects/NUSCENES/v1.0-trainval_meta"
+# imgs_path = "NUSCENES/v1.0-trainval_meta"
+# nuscenes_data_path = "NUSCENES/v1.0-trainval_meta"
 # ver = 'v1.0-trainval'
 
 
