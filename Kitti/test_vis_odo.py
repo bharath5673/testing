@@ -4,7 +4,7 @@ import glob
 import matplotlib.pyplot as plt
 
 # Dataset path
-dataset_path = '/home/bharath/Documents/Projects/KITTI/Tracking/training/image_03/0007/'
+dataset_path = 'KITTI/Tracking/training/image_03/0007/'
 
 output_video_path = 'kitti_visual_odo_trajactory_tracking.mp4'
 frame_width, frame_height = 1242, 750
