@@ -11,7 +11,7 @@ def load_pcd(file_path):
     return points
 
 # Set the directory containing the PCD files
-input_dir = '/home/bharath/Documents/Projects/NUSCENES/mini/v1.0-mini/samples/LIDAR_TOP/'
+input_dir = 'NUSCENES/mini/v1.0-mini/samples/LIDAR_TOP/'
 pcd_files = glob.glob(os.path.join(input_dir, '*.bin'))
 pcd_files.sort()
 
